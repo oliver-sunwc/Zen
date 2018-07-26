@@ -4,7 +4,7 @@ This is a universal (iOS/tvOS/macOS) App which serves as an initial starting poi
 ## ATTENTION!
 We use [CocoaPods](http://cocoapods.org) for dependency management, this means you need to open **StarterProject.xcworkspace** and not StarterProject.xcodeproj.
 
-#COSMOS Cluster 5 Group 3
+## COSMOS UC Irvine
 Under Dr. Martin Jaroszewicz and Professor Jim Simmons
 
 Nathaniel Li, Serena Gu, Eshani Patel, Oliver Sun
