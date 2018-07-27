@@ -12,3 +12,6 @@ Nathaniel Li, Serena Gu, Eshani Patel, Oliver Sun
 Cluster 5: Sound for Virtual Reality: An Exploration of 3D Sound and Movement Using Mobile Devices and Wearable Sensors
 
 The Applications of 3D Sound on Immersive Environmental Experiences
+
+
+This should replace the "StarterPack" directory in the MetaWear folder 
