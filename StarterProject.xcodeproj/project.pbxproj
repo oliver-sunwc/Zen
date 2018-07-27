@@ -16,6 +16,11 @@
 		243EE4A2210981560022E692 /* ViewControllerCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EE4A1210981560022E692 /* ViewControllerCamp.swift */; };
 		243EE4A42109818D0022E692 /* ViewControllerBeach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EE4A32109818D0022E692 /* ViewControllerBeach.swift */; };
 		243EE4A6210983060022E692 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 243EE4A5210983050022E692 /* logo2.png */; };
+		24F63CAE210AC8770032CB58 /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F63CAD210AC8770032CB58 /* logo3.png */; };
+		24F63CB0210B66C90032CB58 /* ocean gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 24F63CAF210B66C80032CB58 /* ocean gif.gif */; };
+		24F63CB4210B69200032CB58 /* Oahu jpeg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24F63CB3210B691F0032CB58 /* Oahu jpeg.jpg */; };
+		24F63CB6210B69670032CB58 /* Ocean image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24F63CB5210B69660032CB58 /* Ocean image.jpg */; };
+		24F63CB8210B6A340032CB58 /* coffee shop.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24F63CB7210B6A340032CB58 /* coffee shop.jpeg */; };
 		402973391DB81F5B00EC8C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402973371DB81F5B00EC8C32 /* LaunchScreen.storyboard */; };
 		402973601DB81F5B00EC8C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402973281DB81F5A00EC8C32 /* Assets.xcassets */; };
 		402973611DB81F5B00EC8C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402973281DB81F5A00EC8C32 /* Assets.xcassets */; };
@@ -45,6 +50,11 @@
 		243EE4A1210981560022E692 /* ViewControllerCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCamp.swift; sourceTree = "<group>"; };
 		243EE4A32109818D0022E692 /* ViewControllerBeach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBeach.swift; sourceTree = "<group>"; };
 		243EE4A5210983050022E692 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		24F63CAD210AC8770032CB58 /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo3.png; path = ../../../Downloads/logo3.png; sourceTree = "<group>"; };
+		24F63CAF210B66C80032CB58 /* ocean gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ocean gif.gif"; sourceTree = "<group>"; };
+		24F63CB3210B691F0032CB58 /* Oahu jpeg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oahu jpeg.jpg"; sourceTree = "<group>"; };
+		24F63CB5210B69660032CB58 /* Ocean image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ocean image.jpg"; sourceTree = "<group>"; };
+		24F63CB7210B6A340032CB58 /* coffee shop.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coffee shop.jpeg"; sourceTree = "<group>"; };
 		2573A1969C83186B79E292E1 /* Pods-Starter-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starter-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starter-iOS/Pods-Starter-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		2C1A4E13D173813A39F97132 /* Pods-Starter-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starter-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starter-iOS/Pods-Starter-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		402973281DB81F5A00EC8C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +112,12 @@
 				243EE48F210977FF0022E692 /* logo.png */,
 				243EE49321097A860022E692 /* logo1.png */,
 				243EE4A5210983050022E692 /* logo2.png */,
+				24F63CB5210B69660032CB58 /* Ocean image.jpg */,
+				24F63CAD210AC8770032CB58 /* logo3.png */,
+				24F63CB3210B691F0032CB58 /* Oahu jpeg.jpg */,
+				24F63CAF210B66C80032CB58 /* ocean gif.gif */,
 				243EE4912109780A0022E692 /* back.png */,
+				24F63CB7210B6A340032CB58 /* coffee shop.jpeg */,
 				402973241DB81F5A00EC8C32 /* Shared */,
 				4029732F1DB81F5B00EC8C32 /* iOS */,
 				4029732E1DB81F5B00EC8C32 /* Products */,
@@ -278,13 +293,18 @@
 			files = (
 				6A52F4C51F317B4A00C43E8B /* Sounds in Resources */,
 				243EE4A6210983060022E692 /* logo2.png in Resources */,
+				24F63CB8210B6A340032CB58 /* coffee shop.jpeg in Resources */,
 				402973791DB8260000EC8C32 /* Main.storyboard in Resources */,
 				6A4F36091F2AF1C300F1FCC7 /* art.scnassets in Resources */,
+				24F63CB4210B69200032CB58 /* Oahu jpeg.jpg in Resources */,
+				24F63CAE210AC8770032CB58 /* logo3.png in Resources */,
 				402973391DB81F5B00EC8C32 /* LaunchScreen.storyboard in Resources */,
 				243EE49421097A870022E692 /* logo1.png in Resources */,
+				24F63CB0210B66C90032CB58 /* ocean gif.gif in Resources */,
 				243EE4922109780A0022E692 /* back.png in Resources */,
 				243EE490210978000022E692 /* logo.png in Resources */,
 				402973601DB81F5B00EC8C32 /* Assets.xcassets in Resources */,
+				24F63CB6210B69670032CB58 /* Ocean image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

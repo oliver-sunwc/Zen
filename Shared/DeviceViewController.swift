@@ -35,21 +35,16 @@ class DeviceViewController: UIViewController {
             self.device.led?.flashColorAsync(UIColor.green, withIntensity: 1.0, numberOfFlashes: 3)
             NSLog("We are connected")
         }
-        self.view.isUserInteractionEnabled = false
-        let sensorTimer = Timer()
-        let aSelector : Selector = #selector(self.startSensor)
-        timer = Timer.scheduledTimer(timeInterval: 3, target: self, selector: aSelector,     userInfo: nil, repeats: false)
-        
         loadSounds()
-       
+        
     }
-
+    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
-       // device.removeObserver(self, forKeyPath: "state")
-       // device.led?.flashColorAsync(UIColor.red, withIntensity: 1.0, numberOfFlashes: 3)
-       // device.disconnectAsync()
+        device.removeObserver(self, forKeyPath: "state")
+        device.led?.flashColorAsync(UIColor.red, withIntensity: 1.0, numberOfFlashes: 3)
+        device.disconnectAsync()
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
@@ -75,7 +70,7 @@ class DeviceViewController: UIViewController {
         let xS =  String(format: "%.02f", (obj.p))
         let yS =  String(format: "%.02f", (obj.y))
         let zS =  String(format: "%.02f", (obj.r))
-    
+        
         let x = radians((obj.p * -1) + 90)
         let y = radians(abs(365 - obj.y))
         let z = radians(obj.r)
@@ -84,29 +79,17 @@ class DeviceViewController: UIViewController {
         
         // Send OSC here
     }
- 
+    
     func radians(_ degree: Double) -> Double {
         return ( PI/180 * degree)
     }
     func degrees(_ radian: Double) -> Double {
         return (180 * radian / PI)
     }
-    //
-    func startSensor() {
-        if device.state == .connected {
-            device.sensorFusion?.eulerAngle.startNotificationsAsync { (obj, error) in
-                self.getFusionValues(obj: obj!)
-                }.success { result in
-                    print("Successfully subscribed")
-                }.failure { error in
-                    print("Error on subscribe: \(error)")
-            }
-        }
-        self.view.isUserInteractionEnabled = true
-    }
+    
     
     @IBAction func startPressed(sender: AnyObject) {
-        /*
+        
         device.sensorFusion?.eulerAngle.startNotificationsAsync { (obj, error) in
             self.getFusionValues(obj: obj!)
             }.success { result in
@@ -114,7 +97,6 @@ class DeviceViewController: UIViewController {
             }.failure { error in
                 print("Error on subscribe: \(error)")
         }
- */
     }
     
     @IBAction func stopPressed(sender: AnyObject) {
@@ -143,7 +125,7 @@ class DeviceViewController: UIViewController {
                 playSoundsController.play(index: sounds.offset)
             }
         }
-    
+        
     }
     
     @IBAction func seagulls(_ sender: UIButton) {
