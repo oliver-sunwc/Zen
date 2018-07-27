@@ -11,8 +11,6 @@
 		243EE4922109780A0022E692 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 243EE4912109780A0022E692 /* back.png */; };
 		243EE49421097A870022E692 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 243EE49321097A860022E692 /* logo1.png */; };
 		243EE49621097D4A0022E692 /* ViewControllerStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EE49521097D4A0022E692 /* ViewControllerStart.swift */; };
-		243EE49A21097E340022E692 /* ViewControllerWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EE49921097E340022E692 /* ViewControllerWork.swift */; };
-		243EE49C21097E7E0022E692 /* ViewControllerRelax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EE49B21097E7E0022E692 /* ViewControllerRelax.swift */; };
 		243EE49E2109809F0022E692 /* ViewControllerPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EE49D2109809F0022E692 /* ViewControllerPark.swift */; };
 		243EE4A0210980D60022E692 /* ViewControllerCafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EE49F210980D60022E692 /* ViewControllerCafe.swift */; };
 		243EE4A2210981560022E692 /* ViewControllerCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EE4A1210981560022E692 /* ViewControllerCamp.swift */; };
@@ -35,18 +33,13 @@
 		6A4F360B1F2AF21000F1FCC7 /* headViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F360A1F2AF21000F1FCC7 /* headViewController.swift */; };
 		6A52F4C51F317B4A00C43E8B /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 6A52F4C41F317B4A00C43E8B /* Sounds */; };
 		6A52F4C71F317B6300C43E8B /* PlaySoundsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A52F4C61F317B6300C43E8B /* PlaySoundsController.swift */; };
-		6AC20611206387F90033A71E /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC20610206387F90033A71E /* libicucore.tbd */; };
-		E829A8A800A7AFC5A4C5DA7A /* Pods_Starter_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3D37560DD979815A53DF1B /* Pods_Starter_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C3D37560DD979815A53DF1B /* Pods_Starter_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starter_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243EE48F210977FF0022E692 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		243EE4912109780A0022E692 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		243EE49321097A860022E692 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		243EE49521097D4A0022E692 /* ViewControllerStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStart.swift; sourceTree = "<group>"; };
-		243EE49921097E340022E692 /* ViewControllerWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWork.swift; sourceTree = "<group>"; };
-		243EE49B21097E7E0022E692 /* ViewControllerRelax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRelax.swift; sourceTree = "<group>"; };
 		243EE49D2109809F0022E692 /* ViewControllerPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPark.swift; sourceTree = "<group>"; };
 		243EE49F210980D60022E692 /* ViewControllerCafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCafe.swift; sourceTree = "<group>"; };
 		243EE4A1210981560022E692 /* ViewControllerCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCamp.swift; sourceTree = "<group>"; };
@@ -69,7 +62,6 @@
 		6A4F360A1F2AF21000F1FCC7 /* headViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = headViewController.swift; sourceTree = "<group>"; };
 		6A52F4C41F317B4A00C43E8B /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		6A52F4C61F317B6300C43E8B /* PlaySoundsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsController.swift; sourceTree = "<group>"; };
-		6AC20610206387F90033A71E /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libicucore.tbd; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AC20611206387F90033A71E /* libicucore.tbd in Frameworks */,
-				E829A8A800A7AFC5A4C5DA7A /* Pods_Starter_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +92,6 @@
 		1A2EFF41F64FC47F9E047F00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6AC20610206387F90033A71E /* libicucore.tbd */,
-				0C3D37560DD979815A53DF1B /* Pods_Starter_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,8 +144,6 @@
 				243EE49521097D4A0022E692 /* ViewControllerStart.swift */,
 				402973371DB81F5B00EC8C32 /* LaunchScreen.storyboard */,
 				4029733A1DB81F5B00EC8C32 /* Info.plist */,
-				243EE49921097E340022E692 /* ViewControllerWork.swift */,
-				243EE49B21097E7E0022E692 /* ViewControllerRelax.swift */,
 				243EE49D2109809F0022E692 /* ViewControllerPark.swift */,
 				243EE49F210980D60022E692 /* ViewControllerCafe.swift */,
 				243EE4A1210981560022E692 /* ViewControllerCamp.swift */,
@@ -466,7 +452,6 @@
 				402973851DB839EA00EC8C32 /* MainTableViewController.swift in Sources */,
 				243EE4A0210980D60022E692 /* ViewControllerCafe.swift in Sources */,
 				243EE4A42109818D0022E692 /* ViewControllerBeach.swift in Sources */,
-				243EE49C21097E7E0022E692 /* ViewControllerRelax.swift in Sources */,
 				6A4F360B1F2AF21000F1FCC7 /* headViewController.swift in Sources */,
 				402973831DB839EA00EC8C32 /* AppDelegate.swift in Sources */,
 				4029737E1DB839AF00EC8C32 /* ScanTableViewController.swift in Sources */,
@@ -475,7 +460,6 @@
 				243EE49E2109809F0022E692 /* ViewControllerPark.swift in Sources */,
 				243EE4A2210981560022E692 /* ViewControllerCamp.swift in Sources */,
 				243EE49621097D4A0022E692 /* ViewControllerStart.swift in Sources */,
-				243EE49A21097E340022E692 /* ViewControllerWork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
