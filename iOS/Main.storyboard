@@ -21,12 +21,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="D2l-i7-3Pw" kind="relationship" relationship="rootViewController" id="UAG-Ab-j3Z"/>
+                        <segue destination="D2l-i7-3Pw" kind="relationship" relationship="rootViewController" id="rbN-eM-t9G"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SpI-3S-gY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2297" y="491"/>
+            <point key="canvasLocation" x="-2522" y="491"/>
         </scene>
         <!--Devices-->
         <scene sceneID="BE4-Jw-tS7">
@@ -212,57 +212,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moM-jr-XgN">
-                                <rect key="frame" x="20" y="72" width="729" height="21"/>
+                                <rect key="frame" x="20" y="72" width="49.5" height="21"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ng1-fI-Ocq">
-                                <rect key="frame" x="20" y="100" width="728" height="53"/>
-                                <color key="backgroundColor" red="0.0" green="0.82118567836649925" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="kkH-nv-7ot"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Start">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="startPressedWithSender:" destination="XFA-76-WTO" eventType="touchUpInside" id="byO-dO-ggN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqU-mA-fuX">
-                                <rect key="frame" x="20" y="161" width="728" height="53"/>
-                                <color key="backgroundColor" red="1" green="0.002335626882021824" blue="0.67312767061794243" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="yMn-pi-3WR"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Stop">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="stopPressedWithSender:" destination="XFA-76-WTO" eventType="touchUpInside" id="gOg-sR-jPd"/>
-                                </connections>
-                            </button>
-                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h5K-kc-VFN" customClass="headViewController" customModule="StarterProject" customModuleProvider="target">
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h5K-kc-VFN" customClass="headViewController" customModule="StarterProject" customModuleProvider="target">
                                 <rect key="frame" x="20" y="283" width="728" height="733"/>
                             </sceneKitView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDm-sL-oRT">
-                                <rect key="frame" x="20" y="222" width="728" height="53"/>
-                                <color key="backgroundColor" red="0.00049718954056119117" green="0.39819462435233166" blue="0.00077136166347715855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="ZaB-he-bus"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Seagulls">
-                                    <color key="titleColor" red="0.95204595696676275" green="1" blue="0.98841421595540369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="seagulls:" destination="XFA-76-WTO" eventType="touchUpInside" id="vWf-fU-mKQ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etJ-96-t5w">
                                 <rect key="frame" x="301" y="417" width="70" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -277,22 +235,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Ng1-fI-Ocq" firstAttribute="trailing" secondItem="BqU-mA-fuX" secondAttribute="trailing" id="58F-H6-xiy"/>
-                            <constraint firstItem="h5K-kc-VFN" firstAttribute="trailing" secondItem="kDm-sL-oRT" secondAttribute="trailing" id="76w-Qw-add"/>
-                            <constraint firstItem="BqU-mA-fuX" firstAttribute="trailing" secondItem="kDm-sL-oRT" secondAttribute="trailing" id="8UM-Bh-itW"/>
-                            <constraint firstItem="Ng1-fI-Ocq" firstAttribute="top" secondItem="moM-jr-XgN" secondAttribute="bottom" constant="7" id="Cg7-FJ-j6b"/>
-                            <constraint firstItem="kDm-sL-oRT" firstAttribute="top" secondItem="BqU-mA-fuX" secondAttribute="bottom" constant="8" symbolic="YES" id="EhH-gz-QHV"/>
                             <constraint firstItem="moM-jr-XgN" firstAttribute="top" secondItem="HeQ-IP-C5H" secondAttribute="bottom" constant="8" symbolic="YES" id="QWT-iA-MfI"/>
                             <constraint firstItem="moM-jr-XgN" firstAttribute="leading" secondItem="6ZF-2c-MfT" secondAttribute="leadingMargin" id="Rgm-U3-LTI"/>
                             <constraint firstItem="lSt-61-UdU" firstAttribute="top" secondItem="h5K-kc-VFN" secondAttribute="bottom" constant="8" symbolic="YES" id="Roq-Ba-rxY"/>
-                            <constraint firstItem="Ng1-fI-Ocq" firstAttribute="leading" secondItem="BqU-mA-fuX" secondAttribute="leading" id="UKe-br-PER"/>
-                            <constraint firstItem="h5K-kc-VFN" firstAttribute="top" secondItem="kDm-sL-oRT" secondAttribute="bottom" constant="8" symbolic="YES" id="W5M-dB-en8"/>
-                            <constraint firstItem="Ng1-fI-Ocq" firstAttribute="trailing" secondItem="6ZF-2c-MfT" secondAttribute="trailingMargin" id="anJ-SZ-gHU"/>
-                            <constraint firstItem="h5K-kc-VFN" firstAttribute="leading" secondItem="kDm-sL-oRT" secondAttribute="leading" id="oUi-Rd-tFe"/>
-                            <constraint firstItem="moM-jr-XgN" firstAttribute="centerX" secondItem="Ng1-fI-Ocq" secondAttribute="centerX" id="pKN-DY-h98"/>
-                            <constraint firstItem="BqU-mA-fuX" firstAttribute="leading" secondItem="kDm-sL-oRT" secondAttribute="leading" id="rbD-Wn-TCQ"/>
-                            <constraint firstItem="moM-jr-XgN" firstAttribute="leading" secondItem="Ng1-fI-Ocq" secondAttribute="leading" id="vhH-DO-gRX"/>
-                            <constraint firstItem="BqU-mA-fuX" firstAttribute="top" secondItem="Ng1-fI-Ocq" secondAttribute="bottom" constant="8" symbolic="YES" id="zoy-wQ-d9h"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Device" id="zSU-Fp-fTT"/>
@@ -305,10 +250,10 @@
             </objects>
             <point key="canvasLocation" x="-225" y="491"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Logo-->
         <scene sceneID="Id4-Ru-160">
             <objects>
-                <viewController id="x16-MY-iBf" sceneMemberID="viewController">
+                <viewController id="x16-MY-iBf" customClass="ViewControllerLogo" customModule="StarterProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7qS-RN-e9A"/>
                         <viewControllerLayoutGuide type="bottom" id="OwE-cM-b2P"/>
@@ -329,14 +274,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4h-0r-vJa">
-                                <rect key="frame" x="30" y="84" width="708" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.171289157" green="0.32961929350000002" blue="0.50625404789999995" alpha="0.55064370600000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.96238018589999996" green="1" blue="0.98222470399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo3.png" translatesAutoresizingMaskIntoConstraints="NO" id="X50-8i-111">
                                 <rect key="frame" x="184" y="273" width="400" height="400"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -350,7 +287,7 @@
                                     <color key="titleColor" red="0.9623801858557951" green="1" blue="0.98222470396416051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="56L-gT-OuM" kind="push" id="id9-af-LfH"/>
+                                    <segue destination="56L-gT-OuM" kind="push" id="taf-By-Xyf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -518,7 +455,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="DDj-0H-H7y">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cafe blue.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DDj-0H-H7y">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -541,13 +478,14 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Start">
-                                    <color key="titleColor" red="0.96238018589999996" green="1" blue="0.98222470399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.9614356382906295" green="1" blue="0.98815113275831834" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cafe:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvQ-z5-fQh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvQ-z5-fQh">
                                 <rect key="frame" x="60" y="489" width="648" height="495"/>
+                                <string key="text">Sad Violin downloaded on a Creative Commons 0 License, Fire Crackling recorded at the Irvine Regional Park and downloaded on a Creative Commons 0 License, and Indistinct Conversation recorded at the UC Irvine Claire Trevor Recorded Studio and downloaded on a Creative Commons 0 License</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.93367258269851938" green="1" blue="0.95080127275362469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qig-Bj-ait">
@@ -677,7 +615,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="JYM-U7-wS3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia_sulawesi_171067.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JYM-U7-wS3">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RF8-zL-Bfy">
@@ -701,6 +639,9 @@
                                 <state key="normal" title="Start">
                                     <color key="titleColor" red="0.96238018589999996" green="1" blue="0.98222470399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="startPressedWithSender:" destination="dgu-Kp-Gu3" eventType="touchUpInside" id="Ovd-HM-mfp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3SN-ig-Pc3">
                                 <rect key="frame" x="404" y="125" width="324" height="324"/>
@@ -713,12 +654,15 @@
                                 <state key="normal" title="Stop">
                                     <color key="titleColor" red="0.96238018589999996" green="1" blue="0.98222470399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="stopPressedWithSender:" destination="dgu-Kp-Gu3" eventType="touchUpInside" id="Pgm-Qw-VsE"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lrz-fo-mxz">
                                 <rect key="frame" x="60" y="489" width="648" height="495"/>
                                 <string key="text">Bird sounds downloaded with a Creative Commons 0 License, Rain Drops recorded at the Irvine Regional Park, Damp Footsteps recorded at the Irvine Regional Park and UC Irvine campus.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -742,6 +686,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jxm-3t-CaH"/>
+                    <connections>
+                        <outlet property="deviceStatus" destination="RF8-zL-Bfy" id="59P-YC-psn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NS3-F0-6xt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -759,7 +706,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ocean gif.gif" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K3G-n0-J16">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PP54080507-Tropical-Blue-Ocean-Water.jpg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K3G-n0-J16">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqk-Jr-Fir">
@@ -796,11 +743,11 @@
                                     <color key="titleColor" red="0.96238018589999996" green="1" blue="0.98222470399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPI-gk-SB4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="40" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPI-gk-SB4">
                                 <rect key="frame" x="60" y="571" width="648" height="495"/>
                                 <string key="text">Ocean Waves recorded at the Irvine Regional Park and downloaded with a Creative Commons 0 License, Rocky Footsteps recorded at the Irvine Regional Park, and Wind Chimes downloaded with a Creative Commons 0 License.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -832,9 +779,11 @@
     </scenes>
     <resources>
         <image name="MetaWear" width="157" height="157"/>
+        <image name="PP54080507-Tropical-Blue-Ocean-Water.jpg" width="1500" height="887"/>
         <image name="back.png" width="356" height="522"/>
+        <image name="cafe blue.jpg" width="1639" height="1159"/>
+        <image name="indonesia_sulawesi_171067.jpg" width="1920" height="1280"/>
         <image name="logo3.png" width="283" height="301"/>
-        <image name="ocean gif.gif" width="490" height="490"/>
         <image name="wifi_d1" width="64" height="64"/>
     </resources>
 </document>

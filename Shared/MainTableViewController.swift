@@ -103,7 +103,7 @@ class MainTableViewController: UITableViewController, ScanTableViewControllerDel
         if let scanController = segue.destination as? ScanTableViewController {
             scanController.delegate = self
         } else if let deviceController = segue.destination as? DeviceViewController {
-            deviceController.device = sender as! MBLMetaWear
+              deviceController.device = sender as! MBLMetaWear
         }
     }
 }

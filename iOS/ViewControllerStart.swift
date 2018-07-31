@@ -8,3 +8,8 @@
 
 import Foundation
 import UIKit
+import MetaWear
+
+class ViewControllerStart : UIViewController {
+    
+}

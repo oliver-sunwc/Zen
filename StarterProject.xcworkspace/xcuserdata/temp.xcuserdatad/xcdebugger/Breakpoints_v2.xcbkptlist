@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/ViewControllerPark.swift"
+            timestampString = "554699011.229308"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "ViewControllerPark"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.mainViewDelegate.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;StarterProject.DeviceViewController&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554699191.40416"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.mainViewDelegate.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;StarterProject.DeviceViewController&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554699191.4072289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; StarterProject.ViewControllerPark"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554699191.4092849"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;StarterProject.ViewControllerPark&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554699191.4113491"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "512">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/ViewControllerPark.swift"
+            timestampString = "554699011.2294869"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "ViewControllerPark"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.playSoundsController.getter : Swift.ImplicitlyUnwrappedOptional&lt;StarterProject.PlaySoundsController&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554699190.144587"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.playSoundsController.setter : Swift.ImplicitlyUnwrappedOptional&lt;StarterProject.PlaySoundsController&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554699190.149014"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; StarterProject.ViewControllerPark"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554699190.152288"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;StarterProject.ViewControllerPark&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554699190.154616"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "608">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS/ViewControllerPark.swift"
+            timestampString = "554699011.229659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewControllerPark"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.deviceStatus.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554403204.9977601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.deviceStatus.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554403205.0000809"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; StarterProject.ViewControllerPark"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554403205.00251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarterProject.ViewControllerPark.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;StarterProject.ViewControllerPark&gt;"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/temp/Desktop/MetaWear-SDK-iOS-macOS-tvOS-master/StarterProject/iOS/ViewControllerPark.swift"
+                  timestampString = "554403205.006346"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
